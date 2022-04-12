@@ -11,6 +11,6 @@ posts_router.get('/posts', postsController.getPosts);
 posts_router.post('/post', postsController.createPost);
 
 
-posts_router.get('/posts/:post_id',postsController.getPosts);
+posts_router.get('/single/:post_id',postsController.getPost);
 
 module.exports = posts_router;
